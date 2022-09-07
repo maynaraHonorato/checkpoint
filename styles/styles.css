@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100vw;
+}
+
+/* mobile 425px */
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3DB2FF; 
+    width: 100vw;
+    height: 554px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.055);
+}
+
+header nav {
+    color: #ffffff;
+}
+
+a,
+a:visited {
+    color: unset;
+    text-decoration: none;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #3DB2FF;
+    border-radius: 36px;
+    width: 340px;
+    height: 140px;
+    margin-top: 36px;
+    place-content: center;
+}
+
+.logo-container h1 {
+    margin-top: 33px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 4rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.nav-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3DB2FF;
+    border: 1px solid #ffffff;
+    border-radius: 36px;
+    width: 197px;
+    height: 82px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    place-content: center;
+}
+
+.nav-curiosidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3DB2FF;
+    border: 1px solid #ffffff;
+    border-radius: 36px;
+    width: 197px;
+    height: 82px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    place-content: center;
+}
+
+.nav-vídeos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3DB2FF;
+    border: 1px solid #ffffff;
+    border-radius: 36px;
+    width: 197px;
+    height: 82px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    place-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    display: none;
+}
+
+.img_banner{
+    width: 100%;
+}
+
+.titulo-curiosidades {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.titulo-curiosidades h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.card-curiosidades {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-1 {
+    width: 335px;
+    height: 534px;
+    left: 43px;
+    top: 651px;
+    box-shadow: 0 0 1em #3DB2FF;
+
+    background-color: #F7F7F7;
+    border-radius: 31px;
+    margin-top: 31px;
+}
+
+.card-1 img {
+    width: 335px;
+    border-top-left-radius: 31px;
+    border-top-right-radius: 31px;
+    padding-bottom: 20px;
+    align-content: center;
+}
+
+.card-1 h3 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; 
+}
+
+.card-1 p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-2 {
+    width: 335px;
+    height: 534px;
+    left: 43px;
+    top: 1222px;
+    box-shadow: 0 0 1em #3DB2FF;
+
+    background-color: #F7F7F7;
+    border-radius: 31px;
+    margin-top: 37px;
+}
+
+.card-2 img {
+    width: 335px;
+    border-top-left-radius: 31px;
+    border-top-right-radius: 31px;
+    padding-bottom: 20px;
+    align-content: center;
+}
+
+.card-2 h3 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.card-2 p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-3 {
+    width: 335px;
+    height: 534px;
+    left: 43px;
+    top: 1793px;
+    box-shadow: 0 0 1em #3DB2FF;
+
+    background-color: #F7F7F7;
+    border-radius: 31px;
+    margin-top: 37px;
+}
+
+.card-3 img {
+    width: 335px;
+    border-top-left-radius: 31px;
+    border-top-right-radius: 31px;
+    padding-bottom: 20px;
+}
+
+.card-3 h3 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.card-3 p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.titulo-video h2 {
+    width: 92px;
+    height: 42px;
+    left: 43px;
+    top: 2438px;
+
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 42px;
+    margin-top: 111px;
+}
+
+.card-video {
+    display: flex;
+    justify-content: center;
+    width: 335px;
+    height: 534px;
+    left: 43px;
+    top: 2502px;
+    margin-top: 22px;
+    margin-bottom: 97px;
+}
+
+.card-video iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 31px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3DB2FF;
+    width: 100%;
+    height: 795px;
+}
+
+.logo-linkedin {
+    width: 141px;
+    height: 141px;
+    top: 3296px;
+    left: 135px;
+    background-color: #434343;
+    border-radius: 100px;
+
+}
+
+.logo-linkedin img {
+    width: 141px;
+    height: 141px;
+    top: 3296px;
+    left: 135px;
+    border-radius: 100px;
+}
+
+.titulo-linkedin h3 {
+    width: 141px;
+    height: 42px;
+    left: 150px;
+    top: 3786px;    
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 42px;
+    margin-top: 24px;
+    color: #ffffff;
+}
+
+.logo-github {
+    width: 141px;
+    height: 141px;
+    top: 3296px;
+    left: 135px;
+    background-color: #434343;
+    border-radius: 100px;
+
+}
+
+.logo-github img {
+    width: 141px;
+    height: 141px;
+    top: 3296px;
+    left: 135px;
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+
+
+.titulo-github h3 {
+    width: 141px;
+    height: 42px;
+    left: 150px;
+    top: 3786px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 42px;
+    margin-top: 24px;
+    color: #ffffff;
+}
